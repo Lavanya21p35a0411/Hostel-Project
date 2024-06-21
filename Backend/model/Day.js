@@ -1,0 +1,53 @@
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
+const DaySchema = new Schema({
+    StudentRollno:{
+        type:String,
+        require:true
+    },
+    StudentId:{
+        type:String,
+        require:true
+    },
+    StudentName:{
+        type:String,
+        require:true
+    },
+    Year:{
+        type:String,
+        require:true
+    },
+    Branch:{
+        type:String,
+        require:true
+    },
+    RoomNo:{
+        type:String,
+        require:true
+    },
+    OutDate:{
+        type:String,
+        require:true
+    },
+    OutTime:{
+        type:String,
+        require:true
+    },
+    Destination:{
+        type:String,
+        require:true
+    },
+    TakenBy:{
+        type:String,
+        require:true
+    },
+    Transport_type:{
+        type:String,
+        require:true
+    },
+    Reason:{
+        type:String,
+        require:true
+    },
+})
+module.exports = mongoose.model('Days', DaySchema)

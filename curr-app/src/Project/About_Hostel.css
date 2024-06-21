@@ -1,0 +1,27 @@
+.ah {
+    background-color: rgb(24, 219, 203);
+    border-radius: 10px;
+    color: white;
+    font-size: 120%;
+    padding: 5%;
+    margin-right: 1%;
+    
+}
+.he-ad{
+    font-size: 200%;
+    color: black;
+}
+
+
+.row .ah{
+    margin-bottom: 3%;
+    padding:1% 1% 1% 1%;
+}
+.row1 .ah{
+    margin-bottom: 3%;
+    padding:1% 1% 1% 1%;
+}
+.row2 .ah{
+    margin-bottom: 3%;
+    padding:1% 1% 1% 1%;
+}
